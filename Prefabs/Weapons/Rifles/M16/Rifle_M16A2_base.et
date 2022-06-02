@@ -1,0 +1,28 @@
+GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{59837C82110B0EF9}" {
+     ContextName "flip_sight"
+     Position PointInfo "{59837C83C3245915}" {
+      PivotID "w_sight"
+     }
+     Radius 0.05
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAction "{51ECFC668352E6C8}" {
+    }
+    XOR_SightFlipAction "{59837C821E055875}" {
+     ParentContextList {
+      "flip_sight"
+     }
+     UIInfo UIInfo "{59837C83153C9678}" {
+      Name "Adjust Rear Sight Aperture"
+     }
+    }
+   }
+  }
+ }
+}

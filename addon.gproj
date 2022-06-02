@@ -1,0 +1,8 @@
+GameProject {
+ ID "M16SightFlip"
+ GUID "59837C88AC45F279"
+ TITLE "M16SightFlip"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
